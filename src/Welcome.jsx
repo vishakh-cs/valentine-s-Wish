@@ -28,7 +28,7 @@ export default function Welcome() {
             alt="letter"
           />
           {name ? (
-            <i className="absolute top-1/2  w-full text-nowrap text-black font-bold text-center md:text-2xl">
+            <i className="absolute top-1/2  w-full text-nowrap text-black lg:text-lg font-bold text-center md:text-lg md:text-pretty sm:text-sm sm:text-pretty">
               I am in Love with You, my dear <span className='text-red-600'>{name}❤️</span>
             </i>
           ) : (
